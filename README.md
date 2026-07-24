@@ -80,8 +80,8 @@ Focused analysis on the highest-value segment including:
 ## Key Findings
 
 - **VIP customers** represent 28% of the base but drive a disproportionate share of revenue 
-- **At Risk** segemnt shows high monetary scores with declining recency, indicating lapsed high-spenders worth targeting with win-back flows. 
-- **Frequency and Monetary** show a near-perfect correlation (0.95) within the VIP segment, confirming that VIP status is driven by purchase frequency rather than basket size. Recency shows weak correlation with both other dimensions (−0.14), suggesting that even the most valuable customers don't necessarily shop on a rigid schedule. It means that retention tactics for VIPs should prioritise purchase frequency triggers suc as replenishment reminders, early access drops, and loyalty perks over upselling higher-priced items.
+- **At Risk** segment shows high monetary scores with declining recency, indicating lapsed high-spenders worth targeting with win-back flows. 
+- **Frequency and Monetary** show a near-perfect correlation (0.95) within the VIP segment, confirming that VIP status is driven by purchase frequency rather than basket size. Recency shows weak correlation with both other dimensions (−0.14), suggesting that even the most valuable customers don't necessarily shop on a rigid schedule. It means that retention tactics for VIPs should prioritise purchase frequency triggers such as replenishment reminders, early access drops, and loyalty perks over upselling higher-priced items.
 
 ---
 
