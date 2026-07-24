@@ -102,4 +102,3 @@ python rfm_analysis.py
 ## About
 
 Built as part of a portfolio focused on growth analytics for DTC and e-commerce brands. 
-I'm a freelance e-commerce consultant specialising in retention strategy, customer analytics, and performance reporting for fashion and lifestyle brands.
