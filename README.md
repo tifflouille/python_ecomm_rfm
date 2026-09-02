@@ -2,7 +2,7 @@
 ### Python · Pandas · Plotly
 
 A end-to-end customer segmentation analysis built for e-commerce and DTC brands. 
-Uses RFM (Recency, Frequency, Monetary) scoring to identify high-value customers, flag churn risk, and surface actionable retention insights.
+I use RFM (Recency, Frequency, Monetary) scoring to identify high-value customers, flag churn risk, and surface actionable retention insights.
 
 ---
 
@@ -50,14 +50,14 @@ Each customer is scored 1–4 on three dimensions using quartile-based binning:
 ### 2. Segment Assignment
 Composite RFM scores (max 12) map to six customer segments:
 
-| Segment | Score Range | Strategic Priority |
-|---------|-------------|-------------------|
-| VIP | 10–12 | Reward & retain |
-| Loyal | 9 | Upsell & cross-sell |
-| Potential Loyal | 7–8 | Nurture to loyalty |
-| At Risk | 5–6 | Re-engagement campaigns |
-| Can't Lose | 4 | Win-back urgency |
-| Lost | 3 | Low-cost reactivation or sunset |
+| Segment | Score Range | Strategic Priority | Action |
+|---------|-------------|-------------------|----------|
+| VIP | 10–12 | Reward & retain | Early access, loyalty perks |
+| Loyal | 9 | Upsell & cross-sell | Cross-sell, bundles |
+| Potential Loyal | 7–8 | Nurture to loyalty | Nudges, replenishment |
+| At Risk | 5–6 | Re-engagement campaigns | Win-back, re-engagement offer |
+| Can't Lose | 4 | Win-back urgency | Urgent win-back |
+| Lost | 3 | Low-cost reactivation or sunset | Low-cost reactivation, sunset |
 
 ### 3. VIP Deep Dive
 Focused analysis on the highest-value segment including:
