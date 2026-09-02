@@ -64,15 +64,6 @@ def segment_label(score):
 rfm['Segment_Label'] = rfm['RFM_Score'].apply(segment_label)
 rfm.head()
 
-fig = px.bar(segment_counts, 
-                 x='Segment_Label', 
-                 y='Count', 
-                 title='Customer Segments based on RFM Analysis',
-                 labels={'Segment_Label': 'Customer Segment', 'Count': 'Number of Customers'},
-                 color='Segment_Label',
-                 color_discrete_sequence=plotly.colors.qualitative.Plotly)
-fig.show()
-
 rfm['RFM_Customer_Segments'] = ''
 
 rfm.loc[rfm['RFM_Score'] >= 10, 'RFM_Customer_Segments'] = 'VIP'
